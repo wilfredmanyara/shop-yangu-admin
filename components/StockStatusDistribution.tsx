@@ -2,8 +2,8 @@
 
 import React, { useEffect, useState } from "react";
 import {
-  BarChart,
-  Bar,
+  LineChart,
+  Line,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -74,14 +74,14 @@ const StockStatusDistribution = () => {
             Stock Status Distribution
           </h2>
           <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={stockData}>
+            <LineChart data={stockData}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="name" />
               <YAxis />
               <Tooltip />
               <Legend />
-              <Bar dataKey="product" fill="#8884d8" />
-            </BarChart>
+              <Line type="monotone" dataKey="product" stroke="#8884d8" strokeWidth={2} />
+            </LineChart>
           </ResponsiveContainer>
         </>
       )}

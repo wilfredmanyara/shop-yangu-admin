@@ -176,7 +176,7 @@ const EditableShop = ({ shopProps, fetchShops }: EditableShopProps) => {
     </div>
   ) : (
     <div className="w-80 max-w-sm rounded max-h-[60vh] overflow-y-auto shadow-lg place-self-center">
-      <div className="w-full h-32 relative">
+      <div className="w-[90%] mx-3 mt-3 flex rounded-xl h-32 relative">
         <Image
           src={logo}
           alt={name}

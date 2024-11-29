@@ -31,7 +31,7 @@ interface CreateShopFormProps {
     
       const handleSubmit = async (event: React.FormEvent) => {
         event.preventDefault();
-        console.log("Form data:", { name, description, logo });
+        // console.log("Form data:", { name, description, logo });
     
         const requestOptions: RequestInit = {
           method: "POST",

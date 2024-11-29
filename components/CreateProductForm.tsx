@@ -51,7 +51,7 @@ const CreateProductForm = ({
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-    console.log("Form data:", { name, price, stock, description, image, shop });
+    // console.log("Form data:", { name, price, stock, description, image, shop });
 
     const requestOptions: RequestInit = {
       method: "POST",
