@@ -76,6 +76,6 @@ The project uses JSON files as a mock API to simulate data. Ensure these files a
 - Additional metrics and visualizations.
 - Improved test coverage.
 
-# For any inquiries or support, reach out at:
+# For any inquiries, reach out at:
 - Email: info@wilfredmanyara.com
 - GitHub: wilfredmanyara
