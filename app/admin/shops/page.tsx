@@ -46,13 +46,13 @@ const Products = () => {
   return (
     <>
       {!create && (
-        <div className="w-full mt-4 mb-4 flex justify-center">
-          <CustomButton
+        <div className="w-full mt-6 mb-4 flex justify-center">
+          {/* <CustomButton
             title="Create new shop"
             containerStyles="w-36 py-[8px] rounded bg-orange-600 mx-2"
             textStyles="text-white"
             handleClick={() => setCreate(!create)}
-          />
+          /> */}
         </div>
       )}
 
@@ -69,11 +69,21 @@ const Products = () => {
       <div className="flex flex-wrap gap-4 items-center mb-4">
         <input
           type="text"
-          placeholder="Search products"
+          placeholder="Search shops"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full md:w-auto border border-gray-300 text-gray-900 p-2.5 rounded focus:ring-2 focus:ring-orange-500 outline-none transition-all"
+          className="w-full md:w-auto border md:ml-3 border-gray-300 text-gray-900 p-2 rounded focus:ring-2 focus:ring-orange-500 outline-none transition-all"
         />
+        {!create && (
+        <div className="mt-4 mb-4 flex justify-center">
+          <CustomButton
+            title="Create new shop"
+            containerStyles="w-36 py-[8px] rounded bg-orange-600 mx-2"
+            textStyles="text-white"
+            handleClick={() => setCreate(!create)}
+          />
+        </div>
+      )}
       </div>
 
       <div className="grid xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 gap-4 pt-4">

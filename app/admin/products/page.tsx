@@ -64,13 +64,13 @@ const Products = () => {
   return (
     <>
       {!create && (
-        <div className="w-full mt-4 mb-4 flex justify-center">
-          <CustomButton
+        <div className="w-full mt-6 mb-4 flex justify-center">
+          {/* <CustomButton
             title="Create new product"
             containerStyles="w-36 py-[8px] rounded bg-orange-600 mx-2"
             textStyles="text-white"
             handleClick={() => setCreate(!create)}
-          />
+          /> */}
         </div>
       )}
 
@@ -120,6 +120,16 @@ const Products = () => {
             ${priceRange[0]} - ${priceRange[1]}
           </span>
         </div>
+        {!create && (
+          <div className="mt-4 mb-4 flex justify-center">
+            <CustomButton
+              title="Create new product"
+              containerStyles="w-36 py-[8px] rounded bg-orange-600 mx-2"
+              textStyles="text-white"
+              handleClick={() => setCreate(!create)}
+            />
+          </div>
+        )}
       </div>
 
       <div className="grid xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 gap-4 pt-4">
