@@ -2,8 +2,6 @@
 
 An admin panel built with **Next.js 15** and **TypeScript** for managing shops and products for the e-commerce platform ShopYangu. The panel supports real-time metrics, CRUD operations, and interactive dashboards.
 
----
-
 ## Features
 
 - Shop Management: Add, update, and delete shops.
@@ -23,7 +21,9 @@ An admin panel built with **Next.js 15** and **TypeScript** for managing shops a
 git clone https://github.com/wilfredmanyara/shop-yangu-admin.git
 
 # Navigate to the project directory:
+```
 cd shop-yangu-admin
+```
 
 # Install the required dependencies with legacy peer deps to handle recharts compatibility:
 ```
