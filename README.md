@@ -6,7 +6,6 @@ An admin panel built with **Next.js 15** and **TypeScript** for managing shops a
 
 ## Features
 
-```plaintext
 - Shop Management: Add, update, and delete shops.
 - Product Management: Add, update, and delete products.
 - Dashboard Metrics:
@@ -20,6 +19,7 @@ An admin panel built with **Next.js 15** and **TypeScript** for managing shops a
   - TypeScript for type safety.
   - Mock API for development and testing.
 ```
+```
 # Clone the repository:
 git clone https://github.com/wilfredmanyara/shop-yangu-admin.git
 
@@ -27,7 +27,9 @@ git clone https://github.com/wilfredmanyara/shop-yangu-admin.git
 cd shop-yangu-admin
 
 # Install the required dependencies with legacy peer deps to handle recharts compatibility:
+```
 npm install --legacy-peer-deps
+```
 
 # Why `--legacy-peer-deps`?
 
@@ -37,8 +39,9 @@ The `--legacy-peer-deps` flag tells npm to bypass strict peer dependency resolut
 - Using `--legacy-peer-deps` ensures the correct versions of dependencies are installed without errors.
 
 # Start the development server:
+```
 npm run dev
-
+```
 # Open your browser and navigate to:
 http://localhost:3000
 
