@@ -18,7 +18,7 @@ const CreateProductForm = ({
   const [shop, setShop] = useState<string>("");
   const [image, setImage] = useState<string>("");
   const [price, setPrice] = useState<number | null>(null);
-  const [stock, setStock] = useState<string>("");
+  const [stock, setStock] = useState<number>(0);
   const [loading, setLoading] = useState<boolean>(false);
 
   const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -45,7 +45,8 @@ const CreateProductForm = ({
   };
 
   const handleStockChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setStock(event.target.value);
+    const value = parseFloat(event.target.value);
+    setStock(isNaN(value) ? 0 : value); 
   };
 
   const handleSubmit = async (event: React.FormEvent) => {
@@ -80,7 +81,7 @@ const CreateProductForm = ({
     // Reset form fields
     setName("");
     setPrice(null);
-    setStock("");
+    setStock(0);
     setDescription("");
     setImage("");
     setShop("");
@@ -193,7 +194,7 @@ const CreateProductForm = ({
               Stock
             </label>
             <input
-              type="text"
+              type="number"
               id="stock"
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               value={stock}
@@ -214,7 +215,7 @@ const CreateProductForm = ({
                 <CustomButton
                   title="Cancel"
                   containerStyles="w-28 py-[8px] rounded-lg bg-red-500 mx-2"
-                  textStyles="text-white text-[14px] leading-[17px] font-bold"
+                  textStyles="text-white"
                   handleClick={() => {
                     setCreate(false);
                   }}
@@ -224,7 +225,7 @@ const CreateProductForm = ({
                   title="Create"
                   btnType="submit"
                   containerStyles="w-28 py-[8px] rounded-lg bg-orange-500 mx-2"
-                  textStyles="text-white text-[14px] leading-[17px] font-bold"
+                  textStyles="text-white"
                 />
               </>
             )}

@@ -7,14 +7,14 @@ import { ProductProps, ShopProps } from "@/types";
 import React, { useEffect, useState } from "react";
 
 const Products = () => {
-  const [dishes, setProducts] = useState<ProductProps[]>([]);
+  const [products, setProducts] = useState<ProductProps[]>([]);
   const [shops, setShops] = useState<ShopProps[]>([]);
   const [create, setCreate] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [selectedShop, setSelectedShop] = useState<string | null>(null);
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 1000]);
   const [page, setPage] = useState<number>(1);
-  const itemsPerPage = 3;
+  const itemsPerPage = 6;
 
   const fetchProducts = async () => {
     try {
@@ -41,7 +41,7 @@ const Products = () => {
     fetchShops();
   }, []);
 
-  const filteredProducts = dishes
+  const filteredProducts = products
     .filter((product) =>
       product.name.toLowerCase().includes(searchQuery.toLowerCase())
     )
@@ -68,7 +68,7 @@ const Products = () => {
           <CustomButton
             title="Create new product"
             containerStyles="w-36 py-[8px] rounded bg-orange-600 mx-2"
-            textStyles="text-white text-[14px] leading-[17px] font-bold"
+            textStyles="text-white"
             handleClick={() => setCreate(!create)}
           />
         </div>

@@ -221,7 +221,7 @@ const EditableProduct = ({
       <div className="flex justify-between px-6 mb-2">
         <span className="text-sm text-black">Shop: {shopName(shop)}</span>
         <span className="text-sm text-black">Price: ${price}</span>
-        <span className="text-sm text-black">Stock: {stock}</span>
+        <span className="text-sm text-black font-bold">Stock: {stock}</span>
       </div>
       <div className="flex justify-center mt-4 pb-4">
         <CustomButton
