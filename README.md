@@ -19,7 +19,7 @@ An admin panel built with **Next.js 15** and **TypeScript** for managing shops a
   - Built using Next.js app directory and routing conventions.
   - TypeScript for type safety.
   - Mock API for development and testing.
-
+```
 # Clone the repository:
 git clone https://github.com/wilfredmanyara/shop-yangu-admin.git
 
