@@ -1,1 +1,93 @@
-[{"id":"72e39c1e-b0f8-4aaf-95b2-12244c5a7a51","shop":"b1e29d34-12f9-4b3f-9d9d-2c1e8a79d4e2","name":"Smart","price":32,"stock":"10","description":"Smartphonyu","image":"https://images.unsplash.com/photo-1721332155545-c7a8005a2581?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"},{"id":"bf832957-9c25-4e47-8c3b-76177c6a4833","shop":"b1e29d34-12f9-4b3f-9d9d-2c1e8a79d4e2","name":"Wireless Headphones","price":199,"stock":50,"description":"Noise-cancelling wireless headphones.","image":"https://plus.unsplash.com/premium_photo-1683887064106-531532ecdf20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZHVjdHN8ZW58MHx8MHx8fDA%3D"},{"id":"139f304f-7607-41cf-a925-998142c1a839","shop":"f13c5a08-5e4a-4db5-a9e2-12cd43b7b80a","name":"Casual T-shirt","price":25,"stock":100,"description":"Comfortable and stylish casual wear.","image":"https://images.unsplash.com/photo-1567365607350-aa8ebcd4e0da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2R1Y3RzfGVufDB8fDB8fHww"},{"id":"5ea28198-b981-4a25-bc7f-5afc28f4d7a5","shop":"f13c5a08-5e4a-4db5-a9e2-12cd43b7b80a","name":"Sneakers","price":80,"stock":"75","description":"Trendy and durable sneakers for all","image":"https://images.unsplash.com/photo-1575330933415-cea1e7ce53eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2R1Y3RzfGVufDB8fDB8fHww"},{"id":"54e1a753c2b85dd262e2cab6c5e3b967","name":"Wilfred","price":19,"stock":"3","description":"it's a new product testing","image":"https://images.unsplash.com/photo-1721332155545-c7a8005a2581?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8","shop":"f13c5a08-5e4a-4db5-a9e2-12cd43b7b80a"}]
+[
+    {
+      "id": "72e39c1e-b0f8-4aaf-95b2-12244c5a7a51",
+      "shop": "b1e29d34-12f9-4b3f-9d9d-2c1e8a79d4e2",
+      "name": "Smartphone Pro",
+      "price": 699,
+      "stock": "25",
+      "description": "High-performance smartphone with a stunning display and advanced features.",
+      "image": "https://images.unsplash.com/photo-1551446299-5a0ad022e1d2?w=500&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "bf832957-9c25-4e47-8c3b-76177c6a4833",
+      "shop": "b1e29d34-12f9-4b3f-9d9d-2c1e8a79d4e2",
+      "name": "Noise-Cancelling Headphones",
+      "price": 199,
+      "stock": 50,
+      "description": "Over-ear headphones with active noise-cancellation and deep bass.",
+      "image": "https://images.unsplash.com/photo-1578885324821-7a76d85f98ae?w=500&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "139f304f-7607-41cf-a925-998142c1a839",
+      "shop": "f13c5a08-5e4a-4db5-a9e2-12cd43b7b80a",
+      "name": "Cotton Casual T-shirt",
+      "price": 25,
+      "stock": 100,
+      "description": "Soft cotton T-shirt for everyday comfort and style.",
+      "image": "https://images.unsplash.com/photo-1580862209815-8e9d1a21c03d?w=500&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "5ea28198-b981-4a25-bc7f-5afc28f4d7a5",
+      "shop": "f13c5a08-5e4a-4db5-a9e2-12cd43b7b80a",
+      "name": "Classic Sneakers",
+      "price": 80,
+      "stock": "75",
+      "description": "Stylish and comfortable sneakers that pair well with any outfit.",
+      "image": "https://images.unsplash.com/photo-1575925794914-12c208fb8136?w=500&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "54e1a753c2b85dd262e2cab6c5e3b967",
+      "name": "Wireless Earbuds",
+      "price": 99,
+      "stock": "40",
+      "description": "Compact wireless earbuds with crystal-clear sound and long battery life.",
+      "image": "https://images.unsplash.com/photo-1581415819519-178059d45991?w=500&auto=format&fit=crop&q=60",
+      "shop": "b1e29d34-12f9-4b3f-9d9d-2c1e8a79d4e2"
+    },
+    {
+      "id": "b703d7f5-07fc-4623-9275-5135c9c63a0c",
+      "shop": "d4e7bb23205ed002d8cebeb4fdede875",
+      "name": "Bluetooth Speaker",
+      "price": 59,
+      "stock": "150",
+      "description": "Portable Bluetooth speaker with great sound quality and waterproof design.",
+      "image": "https://images.unsplash.com/photo-1565379570-6f4f5ac163fa?w=500&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "41a6e053-ced0-4b84-80f9-5b6da989cc7e",
+      "shop": "d4e7bb23205ed002d8cebeb4fdede875",
+      "name": "4K Action Camera",
+      "price": 199,
+      "stock": "30",
+      "description": "Capture stunning 4K video with this rugged action camera.",
+      "image": "https://images.unsplash.com/photo-1600756340099-228fc7f9e053?w=500&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "e06e6b2b-b9a9-4c76-bd08-9de0e0e24e8d",
+      "shop": "ba1496d3-b303-4b7c-a99f-020a7dcbad2d",
+      "name": "Luxury Watch",
+      "price": 299,
+      "stock": "15",
+      "description": "Stylish luxury watch with stainless steel finish and elegant design.",
+      "image": "https://images.unsplash.com/photo-1584288252674-f032c1ffb3fa?w=500&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "3cf7de89-22a1-4b6b-88b3-606c88fe6409",
+      "shop": "ba1496d3-b303-4b7c-a99f-020a7dcbad2d",
+      "name": "Beauty Serum",
+      "price": 35,
+      "stock": "200",
+      "description": "Nourishing beauty serum for radiant and youthful skin.",
+      "image": "https://images.unsplash.com/photo-1573496277173-59e31e6d5be3?w=500&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "7d309b3d-d7b2-4629-9f73-842ae3a1e81f",
+      "shop": "ba1496d3-b303-4b7c-a99f-020a7dcbad2d",
+      "name": "Cosmetic Kit",
+      "price": 49,
+      "stock": "120",
+      "description": "Complete cosmetic kit with everything you need for a flawless look.",
+      "image": "https://images.unsplash.com/photo-1590624098981-1a6500429537?w=500&auto=format&fit=crop&q=60"
+    }
+  ]
+  
