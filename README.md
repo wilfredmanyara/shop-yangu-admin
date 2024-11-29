@@ -61,7 +61,7 @@ The project uses JSON files as a mock API to simulate data. Ensure these files a
 
 # Tips:
 - Use browser developer tools to inspect network requests to the mock API.
-- Test CRUD operations by checking changes in the JSON files in the `data/` directory.
+- Test CRUD operations by checking changes in the JSON files in the `public/mocks` directory.
 
 - Framework: Next.js 15
 - Language: TypeScript
